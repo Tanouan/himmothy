@@ -11,4 +11,5 @@ class TeachingAssistant : public Student {
     TeachingAssistant(float _gpa, std::string name, std::string _course);
 
     std::string getCourse();
+    void print();
 };

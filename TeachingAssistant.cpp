@@ -11,3 +11,7 @@ TeachingAssistant::TeachingAssistant(float _gpa, std::string name, std::string _
 std::string TeachingAssistant::getCourse(){
     return course;
 }
+
+void TeachingAssistant::print(){
+    std::cout << "GPA: " << getGPA() << " Name: " << getName() << " Course: " << getCourse() << std::endl;
+}

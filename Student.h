@@ -12,7 +12,7 @@ private:
 public:
    Student(float _gpa, std::string name);
    float getGPA( );
-   void print();
+   virtual void print();
 };
 
 #endif /* STUDENT_H_ */
